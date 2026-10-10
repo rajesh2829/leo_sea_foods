@@ -106,8 +106,8 @@ function ContactSection() {
                   <Phone className="h-5 w-5" />
                 </div>
                 <div>
-                  <div className="text-sm font-medium text-slate-200">Call us</div>
-                  <div className="text-base font-semibold text-white">{siteConfig.phoneNumber}</div>
+                  <div className="text-sm font-medium text-slate-200">{siteConfig.contactPerson}</div>
+                  <div className="text-base font-semibold text-white">{siteConfig.phoneDisplay}</div>
                 </div>
               </a>
             ) : null}

@@ -1,4 +1,4 @@
-import { Menu, MessageCircleMore, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { siteConfig } from '../config/site';
 
@@ -31,9 +31,11 @@ function Header() {
     <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur-sm">
       <div className="section-container flex items-center justify-between py-3 md:py-4">
         <a href="#home" className="flex items-center gap-3" aria-label="Leo Sea Foods home">
-          <div className="flex h-11 w-11 items-center justify-center rounded-full bg-[#082B45] text-white shadow-sm">
-            <MessageCircleMore className="h-5 w-5" strokeWidth={2.4} />
-          </div>
+          <img
+            src="/images/leo_sea_food_logo.webp"
+            alt="Leo Sea Foods logo"
+            className="h-11 w-11 rounded-full object-cover"
+          />
           <div>
             <div className="text-lg font-bold tracking-tight text-[#082B45]">{siteConfig.businessName}</div>
             <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-slate-500">Seafood</div>
