@@ -4,7 +4,9 @@ export const siteConfig = {
   description:
     'Explore our seafood collection and contact us for current availability and orders.',
   whatsappNumber: '',
-  phoneNumber: '',
+  contactPerson: 'Krishna Kanth',
+  phoneNumber: '917942612578',
+  phoneDisplay: '+91 7942612578',
   location: '',
   openingHours: '',
   email: '',

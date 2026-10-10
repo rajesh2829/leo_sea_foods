@@ -10,7 +10,11 @@ function Footer() {
         <div>
           <div className="flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#082B45] text-white">
-              <MessageCircleMore className="h-4 w-4" />
+              <img
+                src="/images/leo_sea_food_logo.webp"
+                alt="Leo Sea Foods logo"
+                className="h-11 w-11 rounded-full object-cover"
+              />
             </div>
             <div className="text-xl font-bold text-[#082B45]">{siteConfig.businessName}</div>
           </div>
@@ -39,7 +43,7 @@ function Footer() {
             {siteConfig.phoneNumber ? (
               <a href={`tel:+${siteConfig.phoneNumber}`} className="flex items-center gap-2 hover:text-[#082B45]">
                 <Phone className="h-4 w-4" />
-                {siteConfig.phoneNumber}
+                {siteConfig.phoneDisplay}
               </a>
             ) : null}
             {siteConfig.instagram ? (
